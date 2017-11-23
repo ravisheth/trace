@@ -1,0 +1,17 @@
+_Store
+.ipynb_checkpoints
+.pyc
+*.fastq
+*.fa
+*.p
+
+# Ignore blast db outputs
+ref/*.fa.nhr
+ref/*.fa.nin
+ref/*.fa.nog
+ref/*.fa.nsd
+ref/*.fa.nsi
+ref/*.fa.nsq
+
+# Ignore blast result files
+*_blast_out.txt
