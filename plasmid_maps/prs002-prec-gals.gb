@@ -1,24 +1,12 @@
-LOCUS       pRS002_(pRec-GalS)      5315 bp ds-DNA     circular     29-MAY-2017
+LOCUS       pRS002_(pRec-GalS)      5315 bp ds-DNA     circular     25-JAN-2018
 DEFINITION  .
 ACCESSION   urn.local...24-74n6ybm                                             
 SOURCE      null                                                               
 FEATURES             Location/Qualifiers
-     terminator      4534..4639
-                     /label="T0"
-                     /ApEinfo_revcolor=#ff0517
-                     /ApEinfo_fwdcolor=#ff0517
-     misc_feature    282..316
-                     /label="sRBS (RBS calc. 4881.77)"
-                     /ApEinfo_revcolor=#b1ff67
-                     /ApEinfo_fwdcolor=#b1ff67
-     modified_base   3301..3303
-                     /label="E232K"
-                     /ApEinfo_revcolor=#75c6a9
-                     /ApEinfo_fwdcolor=#75c6a9
-     CDS             1236..1520
-                     /label="cas2"
-                     /ApEinfo_revcolor=#b1ff67
-                     /ApEinfo_fwdcolor=#b1ff67
+     CDS             2791..3654
+                     /label="galS-LBD"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
      CDS             4656..5315
                      /label="CmR"
                      /ApEinfo_revcolor=#ffef86
@@ -27,58 +15,70 @@ FEATURES             Location/Qualifiers
                      /label="lacI-DNABD"
                      /ApEinfo_revcolor=#c6c9d1
                      /ApEinfo_fwdcolor=#c6c9d1
-     misc_feature    2545..2545
-                     /label="C to T (lacIq)"
-                     /ApEinfo_revcolor=#d59687
-                     /ApEinfo_fwdcolor=#d59687
-     modified_base   2767..2769
-                     /label="Q54A"
-                     /ApEinfo_revcolor=#f8d3a9
-                     /ApEinfo_fwdcolor=#f8d3a9
-     misc_feature    208..281
-                     /label="PLTetO-1"
-                     /ApEinfo_revcolor=#ffef86
-                     /ApEinfo_fwdcolor=#ffef86
-     terminator      3655..3714
-                     /label="L3S1P52"
-                     /ApEinfo_revcolor=#f58a5e
-                     /ApEinfo_fwdcolor=#f58a5e
-     CDS             1776..2402
-                     /label="tetR"
-                     /ApEinfo_revcolor=#84b0dc
-                     /ApEinfo_fwdcolor=#84b0dc
-     misc_feature    2508..2607
-                     /label="lacI upstream region (100bp)"
-                     /ApEinfo_revcolor=#ff9ccd
-                     /ApEinfo_fwdcolor=#ff9ccd
+     terminator      4534..4639
+                     /label="T0"
+                     /ApEinfo_revcolor=#ff0517
+                     /ApEinfo_fwdcolor=#ff0517
+     misc_feature    282..316
+                     /label="sRBS (RBS calc. 4881.77)"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     CDS             1236..1520
+                     /label="cas2"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
      CDS             317..1234
                      /label="cas1"
                      /ApEinfo_revcolor=#f8d3a9
                      /ApEinfo_fwdcolor=#f8d3a9
-     misc_feature    1707..1741
-                     /label="J23106 (anderson library)"
-                     /ApEinfo_revcolor=#f58a5e
-                     /ApEinfo_fwdcolor=#f58a5e
+     modified_base   2767..2769
+                     /label="Q54A"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     terminator      2403..2507
+                     /label="T1"
+                     /ApEinfo_revcolor=#ff0517
+                     /ApEinfo_fwdcolor=#ff0517
      misc_feature    1742..1775
                      /label="sRBS (RBS calc. 633.59)"
                      /ApEinfo_revcolor=#85dae9
                      /ApEinfo_fwdcolor=#85dae9
-     CDS             2791..3654
-                     /label="galS-LBD"
-                     /ApEinfo_revcolor=#ffef86
-                     /ApEinfo_fwdcolor=#ffef86
-     rep_origin      complement(3847..4529)
-                     /label="ColE1"
+     misc_feature    1707..1741
+                     /label="J23106 (anderson library)"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     misc_feature    2508..2607
+                     /label="lacI upstream region (100bp)"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     misc_feature    2545..2545
+                     /label="C to T (lacIq)"
                      /ApEinfo_revcolor=#d59687
                      /ApEinfo_fwdcolor=#d59687
      misc_feature    1533..1661
                      /label="Terminator B0015"
                      /ApEinfo_revcolor=#ff0000
                      /ApEinfo_fwdcolor=#ff0000
-     terminator      2403..2507
-                     /label="T1"
-                     /ApEinfo_revcolor=#ff0517
-                     /ApEinfo_fwdcolor=#ff0517
+     rep_origin      complement(3847..4529)
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#d59687
+                     /ApEinfo_fwdcolor=#d59687
+     modified_base   3301..3303
+                     /label="E232K"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
+     terminator      3655..3714
+                     /label="L3S1P52"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     misc_feature    208..281
+                     /label="PLTetO-1"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     CDS             1776..2402
+                     /label="tetR"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
 ORIGIN
         1 TTTAGCTTCC TTAGCTCCTG AAAATCTCGA TAACTCAAAA AATACGCCCG GTAGTGATCT
        61 TATTTCATTA TGGTGAAAGT TGGAACCTCT TACGTGCCGA TCAACGTCTC ATTTTCGCCA
@@ -134,12 +134,12 @@ ORIGIN
      3061 gggtacgccc atcgttgcgt ttgcctggat aatctcagcg gtgcccgaat ggcgacgcgc
      3121 atgttgctga ataacggtca tcaacgtatt ggttatcttt cttccagcca cggcattgaa
      3181 gatgacgcca tgcgtaaagc aggctggatg agtgcgttga aagagcagga tattattccg
-     3241 ccggaaagct ggattggcgc tggtacgccg gacatgccgg gcggtgaggc ggcgatggtt
+     3241 ccggaaagct ggattggcac tggtacgccg gacatgccgg gcggtgaggc ggcgatggtt
      3301 aaactgctgg ggcgcaatct acaacttacc gctgtatttg cttataacga caatatggcc
      3361 gctggcgcac tgacagcatt aaaagataat ggcattgcga ttccgttaca tctctcaatc
      3421 atcggtttcg atgatattcc catcgcccgt tacaccgacc cgcaattaac gaccgtgcgt
      3481 tatcccattg cttcaatggc gaaattagcc accgaactgg ccttgcaggg ggcagcaggc
-     3541 aatattgatc ctcgtgccag ccactgtttt atgccgacgt tagtgcgtcg ccattctgtc
+     3541 aatattgatc ctcgtgccag ccactggttt atgccgacgt tagtgcgtcg ccattctgtc
      3601 gcaacacgcc agaatgcggc ggcgatcact aactcaacaa atcaggcgat gtaaGCTTTC
      3661 TAACTAAAAA GGCCTCCCAA ATCGGGGGGC CTTTTTTATT GATAACAAAA CGCTCCTAGG
      3721 CGTTCGGCTG CGGCGAGCGG TATCAGCTCA CTCAAAGGCG GTAATACGGT TATCCACAGA
