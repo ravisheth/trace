@@ -1,8 +1,8 @@
 # trace: temporal recording in arrays by crispr expansion
 
-code from the paper **"Multiplex recording of cellular events over time on CRISPR biological tape"** Sheth RU, Yim SS, Wu FL, Wang HH. Science, 2017 (First Release)
+code from the paper **"Multiplex recording of cellular events over time on CRISPR biological tape"** Sheth RU, Yim SS, Wu FL, Wang HH. Science 358:1457–1461 (2017).
 
-the full paper and supplemental information can be accessed [here](http://science.sciencemag.org/lookup/doi/10.1126/science.aao0958)
+the full paper and supplemental information can be accessed [here (Science)](http://science.sciencemag.org/lookup/doi/10.1126/science.aao0958) or [here (lab website)](https://static1.squarespace.com/static/549464d0e4b0b59bd666040a/t/5a3a9f74ec212d7dda56de75/1513791352278/2017_Science_Sheth.pdf).
 
 ## data avaliability
 
